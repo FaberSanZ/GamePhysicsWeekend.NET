@@ -15,7 +15,11 @@
 
   <ItemGroup>
     <Folder Include="Renderer\" />
-    <Folder Include="Physics\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Silk.NET.GLFW" Version="2.0.0" />
+    <PackageReference Include="Vortice.Vulkan" Version="1.2.166.4" />
   </ItemGroup>
 
 </Project>
